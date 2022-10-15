@@ -1,14 +1,21 @@
-import './App.css';
-import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./pages/Layout";
+import Home from "./pages/Home";
+import Menu from "./pages/Menu";
+import Story from "./pages/Story";
+import Coffee from './pages/Coffee';
 
-function App() {
+export default function App() {
   return (
-    <>
-      <Header/>
-      <Footer/>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="menu" element={<Menu />} />
+          <Route path="coffee" element={<Coffee />} />
+          <Route path="story" element={<Story />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
-
-export default App;
