@@ -11,12 +11,12 @@ $footer-background: #33393f;
 .footer {
   width: 100%;
   background-color: $footer-background;
-  // color: $text-footer;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   padding: 2rem;
+  z-index: 0;
 
   
   @media (max-width: 480px){
