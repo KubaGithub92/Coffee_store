@@ -150,7 +150,7 @@ function Menu() {
       </div>
       <img
         class="menu__img"
-        src="img/espresso-machine-detail.jpg"
+        src={require("../img/espresso-machine-detail.jpg")}
         alt="coffee"
       />
     </section>

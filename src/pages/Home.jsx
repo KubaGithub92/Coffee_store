@@ -9,7 +9,7 @@ function Home() {
         <h1 className="home__heading home__heading_1">Generic Hipster Coffee</h1>
         <h2 className="home__heading home__heading_2">Specialty coffee, fresh food & local community.</h2>
         <img
-          src="#"
+          src={require('../img/counter.jpg')}
           alt="Interior of a coffee store"
           className="home__image"
       />
