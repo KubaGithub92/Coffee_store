@@ -3,7 +3,8 @@ import './Form.scss'
 
 export default function Form() {
   return (
-   <>
+   <div className='form__wrapper'>
+   <h2 className="form__heading">Contact us</h2>
    <form  className='form' action="save.php" method='post'>
       <div className='form__inputs'>
         <div className='form__inputs-item'>
@@ -31,6 +32,6 @@ export default function Form() {
 
       <button className='form__button' type='submit'>Send message</button>
    </form>
-   </>
+   </div>
   )
 }

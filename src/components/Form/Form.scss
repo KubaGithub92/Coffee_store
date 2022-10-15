@@ -10,9 +10,25 @@ $coffee-background: #eff1f1;
 $header-background: #f7f9f9;
 $footer-background: #33393f;
 
-.form{
+.form__wrapper{
   width: 80%;
   margin: 0 auto;
+
+  
+  .form__heading{
+    text-transform: uppercase;
+    margin-bottom: 2.4rem;
+
+    font: {
+      size: 40px;
+      weight: 300;
+    }
+  }
+}
+
+.form{
+  width: 100%;
+
   padding: 2rem;
   display: flex;
   flex-direction: column;

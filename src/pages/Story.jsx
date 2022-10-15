@@ -22,8 +22,8 @@ function Story() {
                 <div className='story__image-wrapper'><img src={require("../img/pouring-coffee.jpg")} alt="pouring coffee" /></div>
               </div>
             </div>
-    
-          <Form/>
+            
+            <Form/>
     
           </section>
           <Footer/>
