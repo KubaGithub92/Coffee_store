@@ -33,21 +33,24 @@ $header-background: #f7f9f9;
     @media (max-width: 768px){
       width: 60%;
     }
-    @media (max-width: 480px){
+    @media (max-width: 490px){
     width: 75%;
     gap: 5px;
     }
   }
 
   &__nav-item{
-    min-width: 20%;
+    // min-width: 20%;
+    margin: 0 auto;
     text-decoration: none;
     color: $text-header;
     font-size: 1.2rem;
     transition: all 0.4s;
+    border-bottom: 2px solid $header-background;
 
     &:hover{
       color: #000;
+      border-bottom: 2px solid #000;
     }
   }
 }
