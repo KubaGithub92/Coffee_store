@@ -39,19 +39,18 @@ $footer-background: #33393f;
 
   &__items {
     width: 100%;
-    display: flex;
-    flex-flow: row wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     justify-content: space-between;
     margin-bottom: 2rem;
     gap: 2rem;
 
     @media (max-width: 1000px) {
-      flex-direction: column;
-      align-items: center;
+      grid-template-columns: 1fr;
     }
 
     .coffee__item {
-      width: 48%;
+      width: 100%;
       background-color: $header-background;
       margin: 0 auto;
 
