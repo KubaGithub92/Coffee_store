@@ -24,6 +24,9 @@ export default function Header() {
         <Link to="/Story" className="header__nav-item">
           Our Story
         </Link>
+        <Link to="/Cart" className="header__nav-item">
+          Cart
+        </Link>
       </div>
     </header>
   );
